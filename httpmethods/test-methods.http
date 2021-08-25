@@ -1,0 +1,11 @@
+###
+GET /guessing-game/ Http/1.1
+host: localhost:8080
+
+###
+PUT /guessing-game/start Http/1.1
+host: localhost:8080
+
+###
+PUT /guessing-game/42 Http/1.1
+host: localhost:8080
